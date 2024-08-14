@@ -2,9 +2,18 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\IBL\LeagueStats;
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('/leaguestats', function () {
+    return view('IBL/leaguestats');
+});
+
+Route::get('/helloibl', function () {
+    return view('IBL/helloibl');
 });
 
 Route::get('/dashboard', function () {
