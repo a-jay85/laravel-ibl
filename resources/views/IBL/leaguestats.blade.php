@@ -320,35 +320,35 @@ $averagesHeaderRow = "<tr>
         <h1 class="text-3xl font-bold leading-7 text-gray-900 sm:truncate sm:text-4xl sm:tracking-tight">League-wide Statistics</h1>
 
         <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">Team Offense Totals</h2>
-        <table class=\"sortable\">
+        <table class="sortable">
             <thead>{!! $totalsHeaderRow !!}</thead>
             <tbody>{!! $offense_totals !!}</tbody>
             <tfoot>{!! $league_totals !!}</tfoot>
         </table>
 
         <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">Team Defense Totals</h2>
-        <table class=\"sortable\">
+        <table class="sortable">
             <thead>{!! $totalsHeaderRow !!}</thead>
             <tbody>{!! $defense_totals !!}</tbody>
             <tfoot>{!! $league_totals !!}</tfoot>
         </table>
 
         <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">Team Offense Averages</h2>
-        <table class=\"sortable\">
+        <table class="sortable">
             <thead>{!! $averagesHeaderRow !!}</thead>
             <tbody>{!! $offense_averages !!}</tbody>
             <tfoot>{!! $league_averages !!}</tfoot>
         </table>
 
         <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">Team Defense Averages</h2>
-        <table class=\"sortable\">
+        <table class="sortable">
             <thead>{!! $averagesHeaderRow !!}</thead>
             <tbody>{!! $defense_averages !!}</tbody>
             <tfoot>{!! $league_averages !!}</tfoot>
         </table>
 
         <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">Team Off/Def Average Differentials</h2>
-        <table class=\"sortable\">
+        <table class="sortable">
             <thead>{!! $averagesHeaderRow !!}</thead>
             <tbody>{!! $league_differentials !!}</tbody>
         </table>
