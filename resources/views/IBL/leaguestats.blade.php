@@ -12,7 +12,7 @@ $sharedFunctions = new App\IBL\Shared($db);
 // $pagetitle = "- $module_name";
 
 // $username = $cookie[1];
-$username = (\Auth::user()->name) ?? "A-Jay";
+$username = (\Auth::user()->name) ?? "";
 $userTeam = App\IBL\Team::withTeamName($db, $sharedFunctions->getTeamnameFromUsername($username));
 
 $queryAllTeams = "SELECT * FROM ibl_team_info WHERE teamid != " . App\IBL\League::FREE_AGENTS_TEAMID . ";";
