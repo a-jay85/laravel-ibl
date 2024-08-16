@@ -15,6 +15,12 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('leaguestats')" :active="request()->routeIs('leaguestats')">
+                        League Stats
+                    </x-nav-link>
+                    <x-nav-link :href="route('upcomingfreeagency')" :active="request()->routeIs('upcomingfreeagency')">
+                        Upcoming Free Agents
+                    </x-nav-link>
                 </div>
             </div>
 

@@ -9,11 +9,11 @@ Route::get('/', function () {
 
 Route::get('/leaguestats', function () {
     return view('IBL/leaguestats');
-});
+})->name('leaguestats');
 
 Route::get('/upcomingfreeagency', function () {
     return view('IBL/upcomingfreeagency');
-});
+})->name('upcomingfreeagency');
 
 Route::get('/helloibl', function () {
     return view('IBL/helloibl');
