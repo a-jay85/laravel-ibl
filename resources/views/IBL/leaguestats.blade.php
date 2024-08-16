@@ -317,7 +317,9 @@ $averagesHeaderRow = "<tr>
 
 <x-layout>
     <center>
-        <h1 class="text-3xl font-bold leading-7 text-gray-900 sm:truncate sm:text-4xl sm:tracking-tight">League-wide Statistics</h1>
+        <x-slot:title>
+            League-wide Statistics
+        </x-slot:title>
 
         <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">Team Offense Totals</h2>
         <table class="sortable">
