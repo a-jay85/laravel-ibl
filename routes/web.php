@@ -11,6 +11,10 @@ Route::get('/leaguestats', function () {
     return view('IBL/leaguestats');
 });
 
+Route::get('/upcomingfreeagency', function () {
+    return view('IBL/upcomingfreeagency');
+});
+
 Route::get('/helloibl', function () {
     return view('IBL/helloibl');
 });
