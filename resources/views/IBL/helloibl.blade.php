@@ -1,3 +1,3 @@
-<x-layout>
+<x-app-layout>
     Hello, IBL!
-</x-layout>
+</x-app-layout>
