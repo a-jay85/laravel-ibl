@@ -24,7 +24,7 @@
                 <x-layout-nav-link href="#" :active="request()->is('')">Trade</x-layout-nav-link>
                 <x-layout-nav-link href="#" :active="request()->is('')">Waivers</x-layout-nav-link>
                 <x-layout-nav-link href="#" :active="request()->is('')">Voting</x-layout-nav-link>
-                <x-layout-nav-link href="#" :active="request()->is('')">Stats</x-layout-nav-link>
+                <x-layout-nav-link href="/dashboard" :active="request()->is('')">Stats</x-layout-nav-link>
                 <x-layout-nav-link href="/leaguestats" :active="request()->is('leaguestats')">League Stats</x-layout-nav-link>
               </div>
             </div>
