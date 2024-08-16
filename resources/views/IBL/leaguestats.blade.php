@@ -315,44 +315,44 @@ $averagesHeaderRow = "<tr>
 
 ?>
 
-<x-layout>
+<x-app-layout>
     <center>
-        <x-slot:title>
+        <x-slot:header>
             League-wide Statistics
-        </x-slot:title>
+        </x-slot:header>
 
-        <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">Team Offense Totals</h2>
+        <h2>Team Offense Totals</h2>
         <table class="sortable">
             <thead>{!! $totalsHeaderRow !!}</thead>
             <tbody>{!! $offense_totals !!}</tbody>
             <tfoot>{!! $league_totals !!}</tfoot>
         </table>
 
-        <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">Team Defense Totals</h2>
+        <h2>Team Defense Totals</h2>
         <table class="sortable">
             <thead>{!! $totalsHeaderRow !!}</thead>
             <tbody>{!! $defense_totals !!}</tbody>
             <tfoot>{!! $league_totals !!}</tfoot>
         </table>
 
-        <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">Team Offense Averages</h2>
+        <h2>Team Offense Averages</h2>
         <table class="sortable">
             <thead>{!! $averagesHeaderRow !!}</thead>
             <tbody>{!! $offense_averages !!}</tbody>
             <tfoot>{!! $league_averages !!}</tfoot>
         </table>
 
-        <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">Team Defense Averages</h2>
+        <h2>Team Defense Averages</h2>
         <table class="sortable">
             <thead>{!! $averagesHeaderRow !!}</thead>
             <tbody>{!! $defense_averages !!}</tbody>
             <tfoot>{!! $league_averages !!}</tfoot>
         </table>
 
-        <h2 class="text-2xl font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight">Team Off/Def Average Differentials</h2>
+        <h2>Team Off/Def Average Differentials</h2>
         <table class="sortable">
             <thead>{!! $averagesHeaderRow !!}</thead>
             <tbody>{!! $league_differentials !!}</tbody>
         </table>
     </center>
-</x-layout>
+</x-app-layout>
