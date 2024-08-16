@@ -146,9 +146,9 @@ if ($season->endingYear != null) {
 
 ?>
 
-<x-layout>
-    <x-slot:title>
+<x-app-layout>
+    <x-slot:header>
         Upcoming Free Agents List ({{ $season->endingYear }})
-    </x-slot:title>
+    </x-slot:header>
     {!! $output !!}
-</x-layout>
+</x-app-layout>
