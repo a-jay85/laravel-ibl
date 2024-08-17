@@ -3,10 +3,6 @@
 // global $db, $cookie;
 $sharedFunctions = new App\IBL\Shared($db);
 
-// if (!defined('MODULE_FILE')) {
-//     die("You can't access this file directly...");
-// }
-
 // $module_name = basename(dirname(__FILE__));
 // get_lang($module_name);
 // $pagetitle = "- $module_name";
