@@ -7,6 +7,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/depth-chart', function () {
+    return view('IBL/depth-chart.index');
+})->middleware(['auth', 'verified'])->name('depth-chart');
+
+Route::post('/depth-chart/submit', function () {
+    return view('IBL/depth-chart/submit', request()->all());
+})->name('depth-chart/submit');
+
 Route::get('/leaguestats', function () {
     return view('IBL/leaguestats');
 })->name('leaguestats');

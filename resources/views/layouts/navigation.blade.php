@@ -15,6 +15,9 @@
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('depth-chart')" :active="request()->routeIs('depth-chart','depth-chart/*')">
+                        Depth Chart
+                    </x-nav-link>
                     <x-nav-link :href="route('upcomingfreeagency')" :active="request()->routeIs('upcomingfreeagency')">
                         Upcoming Free Agents
                     </x-nav-link>
