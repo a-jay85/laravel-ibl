@@ -157,35 +157,39 @@ while ($player = $db->sql_fetchrow($playersOnTeam)) {
             <input type="hidden" name="Team_Name" value="{{ $teamlogo }}">
             <input type="hidden" name="Set_Name" value="{{ $offense_name }}">
             <img src="images/logo/{{ $tid }}.jpg"><br>
-        {!! $table_ratings !!}
+            <div class="overflow-x-scroll">
+                {!! $table_ratings !!}
+            </div>
             <p>
-            <table>
-                <tr>
-                    <th colspan=14>Offensive Set: {{ $offense_name }}</th>
-                </tr>
-                <tr>
-                    <th>Pos</th>
-                    <th>Player</th>
-                    <th>{{ $Slot1 }}</th>
-                    <th>{{ $Slot2 }}</th>
-                    <th>{{ $Slot3 }}</th>
-                    <th>{{ $Slot4 }}</th>
-                    <th>{{ $Slot5 }}</th>
-                    <th>active</th>
-                    <th>min</th>
-                    <th>OF</th>
-                    <th>DF</th>
-                    <th>OI</th>
-                    <th>DI</th>
-                    <th>BH</th>
-                </tr>
-                {!! $output !!}
-                <tr>
-                    <th colspan=14>
-                        <input type="submit" value="Submit">
-                    </th>
-                </tr>
-            </table>
+            <div class="overflow-x-scroll">
+                <table>
+                    <tr>
+                        <th colspan=14>Offensive Set: {{ $offense_name }}</th>
+                    </tr>
+                    <tr>
+                        <th>Pos</th>
+                        <th>Player</th>
+                        <th>{{ $Slot1 }}</th>
+                        <th>{{ $Slot2 }}</th>
+                        <th>{{ $Slot3 }}</th>
+                        <th>{{ $Slot4 }}</th>
+                        <th>{{ $Slot5 }}</th>
+                        <th>active</th>
+                        <th>min</th>
+                        <th>OF</th>
+                        <th>DF</th>
+                        <th>OI</th>
+                        <th>DI</th>
+                        <th>BH</th>
+                    </tr>
+                    {!! $output !!}
+                    <tr>
+                        <th colspan=14>
+                            <input type="submit" value="Submit">
+                        </th>
+                    </tr>
+                </table>
+            </div>
         </form>
     </center>
 </x-app-layout>
