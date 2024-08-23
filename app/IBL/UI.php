@@ -350,7 +350,7 @@ class UI
     
     public static function ratings($db, $result, $team, $yr, $season)
     {
-        $table_ratings = "<table align=\"center\" class=\"sortable dark: text-gray-900\">
+        $table_ratings = "<table align=\"center\" class=\"sortable font-mono dark:text-gray-900\">
             <colgroup span=2><colgroup span=2><colgroup span=6><colgroup span=6><colgroup span=4><colgroup span=4><colgroup span=1>
             <thead bgcolor=$team->color1>
                 <tr bgcolor=$team->color1>
@@ -419,7 +419,7 @@ class UI
 
             $table_ratings .= "<tr bgcolor=$bgcolor>
                 <td align=center>$player->position</td>
-                <td><a href=\"./modules.php?name=Player&pa=showpage&pid=$player->playerID\">$playerNameDecorated</a></td>
+                <td class=\"text-nowrap\"><a href=\"./modules.php?name=Player&pa=showpage&pid=$player->playerID\">$playerNameDecorated</a></td>
                 <td align=center>$player->age</td>
                 <td bgcolor=$team->color1></td>
                 <td align=center>$player->ratingFieldGoalAttempts</td>
