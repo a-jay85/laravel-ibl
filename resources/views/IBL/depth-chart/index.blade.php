@@ -152,7 +152,6 @@ while ($player = $db->sql_fetchrow($playersOnTeam)) {
         Depth Chart
     </x-slot:header>
     <center class="">
-    {!! $displaytopmenu !!}
         <form name="Depth_Chart" method="POST" action="/depth-chart/submit">
             @csrf
             <input type="hidden" name="Team_Name" value="{{ $teamlogo }}">
