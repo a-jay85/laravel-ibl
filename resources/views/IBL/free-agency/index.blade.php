@@ -1416,11 +1416,11 @@ function negotiate($pid)
             <tfoot>
                 <tr>
                     <td colspan=29 align=right><b><i>{{ $team->name }} Total Salary Plus Contract Offers</i></b></td>
-                    <td><b><i>{{ $year6TotalSalary }}</i></b></td>
-                    <td><b><i>{{ $year6TotalSalary }}</i></b></td>
-                    <td><b><i>{{ $year6TotalSalary }}</i></b></td>
-                    <td><b><i>{{ $year6TotalSalary }}</i></b></td>
-                    <td><b><i>{{ $year6TotalSalary }}</i></b></td>
+                    <td><b><i>{{ $year1TotalSalary }}</i></b></td>
+                    <td><b><i>{{ $year2TotalSalary }}</i></b></td>
+                    <td><b><i>{{ $year3TotalSalary }}</i></b></td>
+                    <td><b><i>{{ $year4TotalSalary }}</i></b></td>
+                    <td><b><i>{{ $year5TotalSalary }}</i></b></td>
                     <td><b><i>{{ $year6TotalSalary }}</i></b></td>
                 </tr>
                 <tr class="bg-gray-300">
@@ -1429,11 +1429,11 @@ function negotiate($pid)
                     <td colspan=19></td>
                     <td colspan=8 align=right><b>Soft Cap Space</b></font></td>
                     <td>{{ $year1AvailableSoftCap }}</td>
-                    <td>{{ $year1AvailableSoftCap }}</td>
-                    <td>{{ $year1AvailableSoftCap }}</td>
-                    <td>{{ $year1AvailableSoftCap }}</td>
-                    <td>{{ $year1AvailableSoftCap }}</td>
-                    <td>{{ $year1AvailableSoftCap }}</td>
+                    <td>{{ $year2AvailableSoftCap }}</td>
+                    <td>{{ $year3AvailableSoftCap }}</td>
+                    <td>{{ $year4AvailableSoftCap }}</td>
+                    <td>{{ $year5AvailableSoftCap }}</td>
+                    <td>{{ $year6AvailableSoftCap }}</td>
                 </tr>
                 <tr class="bg-gray-300">
                     <td class="text-right"><b>LLE:</b></font></td>
@@ -1441,20 +1441,20 @@ function negotiate($pid)
                     <td colspan=19></td>
                     <td colspan=8 align=right><b>Hard Cap Space</b></font></td>
                     <td>{{ $year1AvailableHardCap }}</td>
-                    <td>{{ $year1AvailableHardCap }}</td>
-                    <td>{{ $year1AvailableHardCap }}</td>
-                    <td>{{ $year1AvailableHardCap }}</td>
-                    <td>{{ $year1AvailableHardCap }}</td>
-                    <td>{{ $year1AvailableHardCap }}</td>
+                    <td>{{ $year2AvailableHardCap }}</td>
+                    <td>{{ $year3AvailableHardCap }}</td>
+                    <td>{{ $year4AvailableHardCap }}</td>
+                    <td>{{ $year5AvailableHardCap }}</td>
+                    <td>{{ $year6AvailableHardCap }}</td>
                 </tr>
                 <tr class="bg-gray-300">
                     <td colspan=21></td>
                     <td colspan=8 align=right><b>Empty Roster Slots</b></font></td>
-                    <td>{{ $rosterspots6 }}</td>
-                    <td>{{ $rosterspots6 }}</td>
-                    <td>{{ $rosterspots6 }}</td>
-                    <td>{{ $rosterspots6 }}</td>
-                    <td>{{ $rosterspots6 }}</td>
+                    <td>{{ $rosterspots1 }}</td>
+                    <td>{{ $rosterspots2 }}</td>
+                    <td>{{ $rosterspots3 }}</td>
+                    <td>{{ $rosterspots4 }}</td>
+                    <td>{{ $rosterspots5 }}</td>
                     <td>{{ $rosterspots6 }}</td>
                 </tr>
             </tfoot>
