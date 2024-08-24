@@ -7,8 +7,6 @@ $username =  \Auth::user()->name ?? "";
 $teamName = $sharedFunctions->getTeamnameFromUsername($username);
 $team = App\IBL\Team::withTeamName($db, $teamName);
 
-App\IBL\UI::displaytopmenu($db, $team->teamID);
-
 $year1TotalSalary = $year2TotalSalary = $year3TotalSalary = $year4TotalSalary = $year5TotalSalary = $year6TotalSalary = 0;
 $rosterspots1 = $rosterspots2 = $rosterspots3 = $rosterspots4 = $rosterspots5 = $rosterspots6 = 15;
 
