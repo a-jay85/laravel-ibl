@@ -15,6 +15,10 @@ Route::post('/depth-chart/submit', function () {
     return view('IBL/depth-chart/submit', request()->all());
 })->name('depth-chart/submit');
 
+Route::get('/free-agency', function () {
+    return view('IBL/free-agency.index');
+})->middleware(['auth', 'verified'])->name('free-agency');
+
 Route::get('/leaguestats', function () {
     return view('IBL/leaguestats');
 })->name('leaguestats');
