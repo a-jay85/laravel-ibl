@@ -1285,11 +1285,11 @@ function negotiate($pid)
             </caption>
             <colgroup>
                 <col span=5>
-                <col span=6 class="bg-gray-800">
+                <col span=6 class="bg-gray-200 dark:bg-gray-800">
                 <col span=7>
-                <col span=8 class="bg-gray-800">
+                <col span=8 class="bg-gray-200 dark:bg-gray-800">
                 <col span=3>
-                <col span=6 class="bg-gray-800">
+                <col span=6 class="bg-gray-200 dark:bg-gray-800">
                 <col span=5>
             </colgroup>
             <thead>
@@ -1359,11 +1359,11 @@ function negotiate($pid)
             </caption>
             <colgroup>
                 <col span=5>
-                <col span=6 class="bg-gray-800">
+                <col span=6 class="bg-gray-200 dark:bg-gray-800">
                 <col span=7>
-                <col span=8 class="bg-gray-800">
+                <col span=8 class="bg-gray-200 dark:bg-gray-800">
                 <col span=3>
-                <col span=6 class="bg-gray-800">
+                <col span=6 class="bg-gray-200 dark:bg-gray-800">
                 <col span=5>
             </colgroup>
             <thead>
@@ -1423,11 +1423,11 @@ function negotiate($pid)
                     <td><b><i>{{ $year6TotalSalary }}</i></b></td>
                     <td><b><i>{{ $year6TotalSalary }}</i></b></td>
                 </tr>
-                <tr class="bg-gray-700">
-                    <td align=right><font color=white><b>MLE:</b></font></td>
+                <tr class="bg-gray-300">
+                    <td class="text-right"><b>MLE:</b></font></td>
                     <td align=center>{{ $MLEicon }}</td>
                     <td colspan=19></td>
-                    <td colspan=8 align=right><font color=white><b>Soft Cap Space</b></font></td>
+                    <td colspan=8 align=right><b>Soft Cap Space</b></font></td>
                     <td>{{ $year1AvailableSoftCap }}</td>
                     <td>{{ $year1AvailableSoftCap }}</td>
                     <td>{{ $year1AvailableSoftCap }}</td>
@@ -1435,11 +1435,11 @@ function negotiate($pid)
                     <td>{{ $year1AvailableSoftCap }}</td>
                     <td>{{ $year1AvailableSoftCap }}</td>
                 </tr>
-                <tr class="bg-gray-700">
-                    <td align=right><font color=white><b>LLE:</b></font></td>
+                <tr class="bg-gray-300">
+                    <td class="text-right"><b>LLE:</b></font></td>
                     <td align=center>{{ $LLEicon }}</td>
                     <td colspan=19></td>
-                    <td colspan=8 align=right><font color=white><b>Hard Cap Space</b></font></td>
+                    <td colspan=8 align=right><b>Hard Cap Space</b></font></td>
                     <td>{{ $year1AvailableHardCap }}</td>
                     <td>{{ $year1AvailableHardCap }}</td>
                     <td>{{ $year1AvailableHardCap }}</td>
@@ -1447,9 +1447,9 @@ function negotiate($pid)
                     <td>{{ $year1AvailableHardCap }}</td>
                     <td>{{ $year1AvailableHardCap }}</td>
                 </tr>
-                <tr class="bg-gray-700">
+                <tr class="bg-gray-300">
                     <td colspan=21></td>
-                    <td colspan=8 align=right><font color=white><b>Empty Roster Slots</b></font></td>
+                    <td colspan=8 align=right><b>Empty Roster Slots</b></font></td>
                     <td>{{ $rosterspots6 }}</td>
                     <td>{{ $rosterspots6 }}</td>
                     <td>{{ $rosterspots6 }}</td>
@@ -1469,11 +1469,11 @@ function negotiate($pid)
             </caption>
             <colgroup>
                 <col span=5>
-                <col span=6 class="bg-gray-800">
+                <col span=6 class="bg-gray-200 dark:bg-gray-800">
                 <col span=7>
-                <col span=8 class="bg-gray-800">
+                <col span=8 class="bg-gray-200 dark:bg-gray-800">
                 <col span=3>
-                <col span=6 class="bg-gray-800">
+                <col span=6 class="bg-gray-200 dark:bg-gray-800">
                 <col span=5>
             </colgroup>
             <thead>
@@ -1532,11 +1532,11 @@ function negotiate($pid)
             </caption>
             <colgroup>
                 <col span=5>
-                <col span=6 class="bg-gray-800">
+                <col span=6 class="bg-gray-200 dark:bg-gray-800">
                 <col span=7>
-                <col span=8 class="bg-gray-800">
+                <col span=8 class="bg-gray-200 dark:bg-gray-800">
                 <col span=3>
-                <col span=6 class="bg-gray-800">
+                <col span=6 class="bg-gray-200 dark:bg-gray-800">
                 <col span=5>
             </colgroup>
             <thead>
