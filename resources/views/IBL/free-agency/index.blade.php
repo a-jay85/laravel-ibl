@@ -1,9 +1,9 @@
 <?php
 
-$username =  \Auth::user()->name ?? "";
 $sharedFunctions = new App\IBL\Shared($db);
 $season = new App\IBL\Season($db);
 
+$username =  \Auth::user()->name ?? "";
 $teamName = $sharedFunctions->getTeamnameFromUsername($username);
 $team = App\IBL\Team::withTeamName($db, $teamName);
 
